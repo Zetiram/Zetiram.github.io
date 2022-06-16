@@ -1,0 +1,118 @@
+html {
+	font-family: 'Lato', sans-serif;
+}
+/*Posicionamiento*/
+header {
+	margin-top: 40px;
+}
+
+.header-section-woweare p {
+	margin-top: -9px;
+}
+
+
+
+main {
+	margin-top: 50px;
+}
+
+.team-photos {
+	margin-left: 5px;
+	display: grid;
+	grid-template-columns: 150px 150px ;
+	grid-template-rows: 210px 210px 270px;
+	grid-row-gap: 14px;
+}
+
+.team-photos .photo2, .photo4, .photo6 {
+	display: flex;
+	align-self: flex-end;
+
+}
+
+.team-photos .text-art {
+	display: flex;
+	justify-content: flex-end;	
+}
+
+.team-photos {
+	margin-bottom: 50px;
+}
+
+footer {
+	text-align: center;
+}
+
+
+
+/*letras*/
+.team-photos .section2, .section4, .section6 {
+	margin-top: 46px;
+}
+
+
+
+/*Visual*/
+.team-photos img {
+	height: 165px;
+}
+
+.team-photos .name {
+	font-weight: bold;
+}
+
+.team-photos section .specialized-text {
+	margin-right: 19px;
+	float: right;
+	font-size: 7px;
+	font-weight: bolder;
+	writing-mode: vertical-lr;
+
+}
+
+@media(min-width: 420px) {
+	main {
+		display: flex;
+		justify-content: center;
+	}
+
+}
+
+@media(min-width: 740px) {
+	header {
+		display: flex;
+		justify-content: space-around;
+	}
+	.header-section-woweare {
+		width: 20%;
+	}
+
+.team-photos img {
+	height: 260px;
+}
+
+.team-photos {
+	display: grid;
+	grid-template-columns: 280px 280px 280px;
+	grid-template-rows: 310px 130px 310px;
+	grid-row-gap: 14px;
+}
+
+.team-photos section .specialized-text {
+	margin-right: 76px;
+	font-size: 9.6px;
+}
+
+.team-photos .section4, .section6 {
+	margin-top: 40px;
+}
+
+.team-photos .section2 {
+	margin-top: 60px;
+}
+
+.team-photos .section5 {
+	margin-top: 9rem;
+
+}
+
