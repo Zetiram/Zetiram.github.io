@@ -153,13 +153,12 @@ input {
 	border-radius: 10px;
 }
 
+.footer-section {
+	color: var(--Light_Cyan)
+}
+
 /*Breakpoint*/
 
-@media (min-width: 630px) {
-	.div-content {
-	
-	}
-}
 
 @media (min-width: 1440px) {
 	.div-content {
